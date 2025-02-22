@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <style>
+        ul li a {
+            color: blue;
+        }
+        ul li a:hover{
+            color: red;
+        }
+        ul li a:active{
+            color: green;
+        }
+        .font {
+            font-family:Arial;
+            text-shadow: 2px 2px 4px rgb(74, 18, 206);
+
+        }
+        .para {
+            font-size: 1.2rem;
+            line-height: 1.6px;
+            text-align: justify;
+        }
+        .card {
+            border: 1px solid gray;
+            padding: 20px;
+            margin: 10px;
+            max-width: 300px;
+        }
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            gap: 30px;
+            flex-direction: column;
+            text-align: center;
+            
+        }
+        .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+                gap: 10px; 
+      }
+      
+      .gallery img {
+        width: 100%; 
+        height: auto;
+        display: block;
+      }
+      
+      @media (max-width: 600px) {
+        .gallery {
+          grid-template-columns: 1fr;
+        }
+        }
+        .button1 {
+            background-color: blue;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+           cursor: pointer;
+        transition: background-color 0.3s ease;
+        }
+        .button1:hover {
+  background-color: darkblue;
+}
+.button2 {
+    width: 150px;
+    height: 50px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .button2:hover {
+    transform: scale(1.2); 
+  }
+    </style>
+</head>
+<body>
+    <!-- unordered lists with five list items -->
+    <ul>
+        <li><a href="https://www.zee5.com/">One</li>
+        <li><a href="https://www.zee5.com/">Two</li>
+        <li><a href="https://www.zee5.com/">Three</li>
+        <li><a href="https://www.zee5.com/">Four</li>
+        <li><a href="https://www.zee5.com/">Five</li></a>
+    </ul>
+<br><br>
+<!-- simple paragraph and h1 -->
+<div class="two">
+    <div class="font"><h1>Exam1</h1></div>
+    <div class="para"><p>HTML and CSS Exam</p></div>
+
+
+<br><br>
+<!-- border,padding and margin -->
+    <div class="card">I am learning FrontEnd</div>
+
+<br><br>
+
+<!-- responsive navigation bar with three links -->
+    <nav>
+        <a href="https://www.zee5.com/">One1</a>
+        <a href="https://www.zee5.com/">Two2</a>
+        <a href="https://www.zee5.com/">Three3</a>
+      </nav>
+       
+      <br><br>
+
+      <!-- grid photo gallery -->
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/30801140/pexels-photo-30801140/free-photo-of-night-view-of-baroque-cathedral-in-aguascalientes.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" height="100px" width="100px";>
+            <img src="https://images.pexels.com/photos/30801140/pexels-photo-30801140/free-photo-of-night-view-of-baroque-cathedral-in-aguascalientes.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" height="100px" width="100px";>
+            <img src="https://images.pexels.com/photos/30801140/pexels-photo-30801140/free-photo-of-night-view-of-baroque-cathedral-in-aguascalientes.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" height="100px" width="100px";>
+            <img src="https://images.pexels.com/photos/30801140/pexels-photo-30801140/free-photo-of-night-view-of-baroque-cathedral-in-aguascalientes.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load" height="100px" width="100px";>
+        </div>
+
+<br><br>
+  
+
+ <!-- changes when colored over -->
+<div class="button1">
+<button>Click Me</button></div>
+
+
+
+
+
+
+
+  <!-- using button that scales when hover -->
+  <div class="button2">
+  <button>Hover Me </button></div>
+
+</body>
+</html>
+</body>
+</html>
